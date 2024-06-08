@@ -1,0 +1,41 @@
+body{
+    background-color: #efefefd0;
+}
+
+
+select, button {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: rgb(99, 19, 161);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif; 
+    line-height: 1.5;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+    background-color: #af4c89;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #c967ce;
+}
+
+select {
+    width: 210px;
+}
+
