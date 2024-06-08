@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Items Bill</title>
+    <style>
+        table {
+            height: 200px;
+            width: 400px;
+            border-collapse: collapse;
+            line-height: 30px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #first {
+            color: white;
+            background-color: #537553;
+        }
+
+        #sec {
+            background-color: rgb(208, 206, 206)
+        }
+
+        #thr {
+            background-color: rgb(184, 183, 183)
+        }
+
+
+        #tot {
+            text-align: right;
+        }
+
+        .sub {
+            text-align: center;
+        }
+        #nimg{
+            width: 120px;
+            margin-bottom: -80px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html"><img id="nimg" src="../back logo.png" ></a>
+
+
+    <center>
+        <h1>Grocery Items Bill</h1>
+    </center>
+    <table class="center" border="2">
+
+        <tr id="first">
+            <td>Item Name</td>
+            <td class="sub">Quantity</td>
+            <td class="sub">Price</td>
+        </tr>
+
+
+        <tr>
+            <td>Potatoes</td>
+            <td class="sub">51</td>
+            <td id="sec" class="sub">$1.00</td>
+        </tr>
+
+        <tr id="thr">
+            <td>Nuts</td>
+            <td class="sub">20</td>
+            <td class="sub">$5</td>
+        </tr>
+
+        <tr>
+            <td>Onions</td>
+            <td class="sub">4</td>
+            <td class="sub" id="sec">$3.00</td>
+        </tr>
+
+        <tr id="thr">
+            <td>Very long awkwardly named yet <br>
+                still delicious item here</td>
+            <td class="sub">4</td>
+            <td class="sub">$3.00</td>
+        </tr>
+
+        <tr>
+            <td>Carrots</td>
+            <td class="sub">12</td>
+            <td class="sub" id="sec">$2.99</td>
+        </tr>
+
+        <tr>
+            <td id="tot" colspan="2"><strong>Total Price</strong></td>
+            <td class="sub" id="sec">$33.79</td>
+
+        </tr>
+    </table>
+
+
+
+    </script>
+
+</body>
+
+</html>

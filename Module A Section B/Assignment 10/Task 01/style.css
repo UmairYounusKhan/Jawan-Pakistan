@@ -1,0 +1,85 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: 4px 4px 8px  grey;
+    color: blueviolet;
+}
+a img{
+    width: 80px;
+}
+.main{
+    margin: 50px auto;
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px  rgb(197, 147, 147);
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 40px;
+    margin:20px;
+    box-shadow: 4px 4px 4px rgb(224, 228, 218);
+    
+
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px rgb(224, 228, 218);
+
+
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: green;
+    background-color: lightgrey;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px rgb(224, 228, 218);
+
+
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 4px 4px 4px rgb(224, 228, 218);
+
+
+
+}
+#fir{
+    padding-left: 40px;
+}
+#sec{
+    padding-left: 35px;
+}
+#thi{
+    padding-left: 25px;
+}
+#four{
+    padding-right: 15px;
+}
+
+#six{
+    padding-left: 10px;
+}
+#std{
+    padding-right: 0px;
+}

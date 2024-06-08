@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(130, 38, 196);
+    
+}
+.container{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 25%;
+    
+}
+.container:focus {
+    border: 1px solid #50a5cf;
+    
+  }
+
+  .container:hover{
+    scale: 1.01;
+  }
+.box{
+    background-color: white;
+    /* border: 0 solid rgb(255, 255, 255); */
+    height: 400px;
+    width: 400px;
+    box-shadow: 8px 2px 12px rgb(93, 93, 93);
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 6px 1px 1px 6px;
+}
+.box1{
+  background-image: linear-gradient(
+  50deg,
+  rgba(227, 128, 244, 0.4)50%,
+  rgba(234, 147, 250, 0.4)
+  ),
+  url(./logos/logo1.jpg);
+  background-size: cover;
+  /* border: 0 solid rgb(255, 255, 255); */
+  height: 400px;
+  width: 400px;
+  border-radius: 1px 6px 6px 1px;
+
+  /* box-shadow: 4px 2px 2px rgb(93, 93, 93); */
+
+}
+#pic{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  box-shadow: 4px 2px 12px rgb(93, 93, 93);
+  border-radius: 1px 6px 6px 1px;
+
+
+}
+.content{
+  padding: 0px 10px;
+  margin-top: 40%;
+  color: white;
+  font-size: 27px;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content h4{
+  position: relative;
+  bottom: 28px;
+  font-size: 18px;
+}
+/* .login{
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 400px;
+    
+    text-decoration: none;
+
+} */
+h2{
+    margin-top: 50px;
+    padding-right: 280px;
+    text-decoration:underline;
+    text-decoration-color: #ad18d2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#input1{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(202, 202, 202);
+    width: 80%;
+    
+
+    padding-left: 25px;
+  background: url("./logos/mail.png") no-repeat left;
+  background-size: 30px;
+  
+    
+  
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #858484;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+
+
+
+
+    
+}
+#input2{
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(202, 202, 202);
+  width: 80%;
+  
+
+  padding-left: 25px;
+  margin-left: 15px;
+background: url("./logos/lock.png") no-repeat left;
+background-size: 20px;
+
+
+
+  
+
+border-top: 2px solid #fff;
+border-left: 2px solid #fff;
+border-right: 2px solid #fff;
+border-bottom: 2px solid #858484;
+border-bottom-left-radius: 0%;
+border-bottom-right-radius: 0%;
+  
+}
+input::placeholder{
+  padding-left: 15px;
+}
+
+button{ 
+    background-color: rgb(3, 139, 211);
+    color: white;
+    width: 88%;
+    margin-top: 40px;
+    padding: 12px;
+    border: 0px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+button:focus {
+    border: 1px solid #50a5cf;
+    
+  }
+
+  button:hover{
+    scale: 1.02;
+  }
+  
+
+#forgot{
+    position: relative;
+    right: 115px;
+    color: #ad18d2;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signup{
+  color: #ad18d2;
+}
