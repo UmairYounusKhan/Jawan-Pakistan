@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 03</title>
+
+    <style type="text/css">
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            flex-direction: column;
+
+        }
+
+        fieldset {
+            width: 500px;
+            height: auto;
+            margin: 30px;
+        }
+
+        label {
+            margin-bottom: 5px;
+
+        }
+
+        #cnicc input {
+            width: 1em;
+            height: 2em;
+            text-align: center;
+            margin: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            background: #ffffff;
+        }
+
+        th,td {
+            border: 1px solid #ffffff;
+            padding: 8px;
+            text-align: center;
+            color: #000000;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="body"><br><br>
+        <table border="1">
+
+            <center>
+                <tr>
+                    <td bgcolor="#90EE90">Step 01: Account</td>
+                    <td bgcolor="#ADD8E6">Step 02: Personal Details</td>
+                    <td bgcolor="#bebebe">Step 03: Your Review</td>
+                </tr>
+            </center>
+        </table>
+
+        <fieldset>
+            <legend>
+                <h2>Personal Details</h2>
+            </legend>
+            <form>
+                
+                    <label for="name">First Name:</label><br>
+                <input  required id="name" type="text" size="20" placeholder="Enter First Name"><br><br>
+
+                <label for="namee">Last Name:</label><br>
+                <input required id="namee" type="text" size="30" placeholder="Enter Last Name"><br><br>
+
+                <div id="cnicc">
+                    <label for="cnic">CNIC:</label>
+                <br>
+                <input type="text" id="digit1" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit2" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit3" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit4" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit5" maxlength="1" oninput="moveToNext(this)">
+                -
+                <input type="text" id="digit6" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit7" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit8" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit9" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit9" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit9" maxlength="1" oninput="moveToNext(this)">
+                <input type="text" id="digit9" maxlength="1" oninput="moveToNext(this)">
+                -
+                <input type="text" id="digit10" maxlength="1">
+                </div>
+
+                <label for="link">Social Links:</label><br>
+                
+                <input required id="link" type="link" size="30"
+                    placeholder="Enter facebook/linkedln profile Here"><br><br>
+            </form>
+            <script>
+                function moveToNext(currentInput) {
+                    var nextInput = currentInput.nextElementSibling;
+                    if (nextInput) {
+                        nextInput.focus();
+                    }
+                }
+            </script>
+            <a href="page02.html"><img width="110" src="../logo/back logo.png"></a>
+            <a href="page04.html"><img width="110" src="../logo/next logo.png"></a>
+
+        </fieldset>
+        /
+
+    </div>
+</body>
+
+</html>

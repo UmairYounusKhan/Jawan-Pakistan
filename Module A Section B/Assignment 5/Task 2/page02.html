@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 02</title>
+
+    <style>
+        .body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      flex-direction: column;
+    } 
+       
+        fieldset {
+          width: 500px; 
+          height: auto; 
+          margin: 30px; 
+        }
+        
+    label {
+      margin-bottom: 5px;
+    
+    }
+    table {
+            border-collapse: collapse;
+            width: 500px;
+            background: #ffffff;
+        }
+
+        th,td {
+            border: 1px solid #ffffff;
+            padding: 8px;
+            text-align: center;
+            color: #000000;
+        }
+    
+    
+</style>    
+</head>
+<body>
+<div class="body"><br><br>
+    <table border="1">
+
+        <tr>
+             <td bgcolor="#ADD8E6">Step 01: Account</td>
+             <td bgcolor="#bebebe">Step 02: Personal Details</td>
+             <td bgcolor="#bebebe">Step 03: Your Review</td>
+         </tr>
+     </table>
+
+        <fieldset>
+            <legend><h2>Accounts</h2></legend>
+            <form>
+                <label for="email">Email Address:</label><br>
+                <input required id="email" type="email" size="20" placeholder="Enter Email"><br><br><br>
+    
+                <label for="pass">Password:</label><br>
+                <input required id="pass" type="password" size="30" placeholder="Enter Password"><br><br><br>
+    
+                <label for="passs">Confirm Password:</label><br>
+                <input required id="passs" type="password" size="30" placeholder="Confirm Password"><br><br>
+            </form>
+            <a href="page01.html"><img width="110" src="../logo/back logo.png" ></a>
+            <a href="page03.html"><img  width="110" src="../logo/next logo.png" ></a>
+
+            </fieldset>
+    
+        </div>
+</body>
+
+</html>
