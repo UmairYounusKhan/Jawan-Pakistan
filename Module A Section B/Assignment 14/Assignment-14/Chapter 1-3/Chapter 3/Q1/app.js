@@ -1,0 +1,3 @@
+var caseQty
+
+alert(caseQty);

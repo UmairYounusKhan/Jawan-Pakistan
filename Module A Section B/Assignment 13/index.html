@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Section 1 (Navbar) start -->
+  <section class="container">
+    <section class="container">
+      <nav class="navbar navbar-expand-lg  bg-body-dark navbar-dark">
+        <div class="container-fluid  ">
+          <div>
+            <a class="navbar-brand" href="#"><i class=" fa-brands fa-apple"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class=" collapse navbar-collapse  d-flex justify-content-center align-items-center" id="navbarSupportedContent">
+            <div>
+              <ul class="navbar-nav  mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Maci</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPhone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vision</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Airpods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tv & Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            </ul></div>
+          </div>
+          <div>
+            <form class="d-flex" role="search">
+              <ul class="nav_ull">
+                <li class="dropdown">
+                  <button class="btn btn-sm " onclick="myFunction()" class="dropbtn"><a href=""><i
+                        class="fa-solid fa-magnifying-glass"></i></a></button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+
+                  </div>
+                </li>
+                <li class="search"><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </section>
+  <!-- Section 1 (Navbar) End -->
+
+  <!-- Section 2 (Sub-Navbar) start -->
+  <section>
+    <div class="sub-nav d-flex justify-content-center  align-items-center flex-column pt-2 pb-2 px-4">
+      <h6 class="fs-5">Get $180–$620 in credit toward iPhone 15 Pro when </h6>
+      <h6 class="fs-5">you trade in iPhone 11 or higher.* <a class="buy" href="">Buy ></a></h6>
+    </div>
+  </section>
+  <!-- Section 2 (Sub-Navbar) End -->
+
+  <!-- Section 3 (Main Image) start -->
+  <div class="main_image d-flex flex-column justify-content-center align-items-center bg-black">
+    <h2 class="text-white mt-3">iPhone 15 Pro</h2>
+    <div class="main_image">
+      <img class="w-100"
+        src="https://www.apple.com/v/iphone-15-pro/c/images/overview/welcome/hero__iztc7m63bfiy_large.jpg"
+        onload="__lp(event)" alt="A side view of iPhone 15 Pro">
+    </div>
+    <button class="btn  rounded-pill bg-primary m-3 px-4">Buy</button>
+    <h5 class="text-white mt-2 mb-5">From $999 or $41.62/mo. for 24 mo.<sup>1</sup></h5>
+  </div>
+  <!-- Section 3 (Main Image) End -->
+
+  <!-- Section 4 (Highlights) Start -->
+  <section class="pt-5 container pb-5 all_width">
+    <div class="animate d-flex justify-content-between text-white flex-wrap">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fontt">Get the highlights.</h1>
+      </div>
+      <div class="d-flex gap-3">
+        <div data-aos="fade-up" data-aos-duration="2000">
+          <a class="anime" href="">
+            <h4>Watch the film <i class="fa-regular fa-circle-play"></i></h4>
+          </a>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2500">
+          <a class="anime" href="">
+            <h4>Watch the event ></h4>
+          </a>
+        </div>
+      </div>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide ">
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/mobile1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/mobile.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/mobile2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/mobile3.png" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <!-- Section 4 (Highlights) End -->
+
+  <!-- Section 4 (Closer Look) Start -->
+  <section class="container text-white all_width">
+    <div data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="fontt">Take a Closer Look</h1>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/closer-look/all_colors__eppfcocn9mky_large.jpg"
+        alt="">
+    </div>
+
+    <div class="d-flex justify-content-center ">
+      <div class="big_btn flex-wrap d-flex rounded-pill justify-content-center gap-2 mt-5 mb-5 p-3 "
+        style="width: 15%;">
+        <button class=" mbl_btn1 btn  ">
+        </button>
+        <button class=" mbl_btn2 btn  ">
+        </button>
+        <button class=" mbl_btn3 btn  ">
+        </button>
+        <button class=" mbl_btn4 btn  ">
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Section 4 (Closer Look) End -->
+
+  <!-- Section 5 (Full story) Start -->
+  <section class="container all_width">
+    <div class="pt-5 pb-5" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="fontt ">Explore the full story</h1>
+    </div>
+    <section class="container">
+      <h1 class="text-white big_font">
+        iPhone. <br>
+        Forged in titanium.
+      </h1>
+    </section>
+    <section class="pb-5 ">
+      <img class="w-100" src="./images/sub_mobile1.png" alt="">
+      <div class="row">
+        <div class="col-6">
+          <div data-aos="zoom-out-left" data-aos-duration="1000"><img class="w-100" src="./images/sub_mobile2.png" alt=""></div>
+
+        </div>
+        <div class="col-6">
+          <div data-aos="zoom-out-left" data-aos-duration="1000"> <img class="w-100" src="./images/sub_mobile3.png" alt=""></div>
+
+        </div>
+      </div>
+      <div class="row pt-5 pb-5 fontt">
+        <div class="col-6 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+          <h4>
+            iPhone 15 Pro is <span class="text-white">the first iPhone to <br> feature an aerospace‑grade <br>titanium
+              design,</span> using the same <br> alloy that spacecraft use for <br>missions to Mars.
+          </h4>
+        </div>
+        <div class="col-6 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+          <h4> Titanium has one of the best <br> strength‑to‑weight ratios of any <br> metal, making these our <span
+              class="text-white">lightest <br> Pro models ever.</span> You’ll notice the <br> difference the moment you
+            pick <br> one up.</h4>
+
+        </div>
+      </div>
+      <div class="d-flex justify-content-center a">
+        <button class="add_btn btn rounded-pill p-3 fs-5">
+          More on design & display <i class="fs-5 fa-solid fa-circle-plus"></i>
+        </button>
+      </div>
+    </section>
+
+  </section>
+  <!-- Section 5 (Full story) End -->
+
+  <!-- Section 6 (Pro Chips) Start -->
+  <section class="pt-5 pb-5 ">
+    <!--  -->
+    <div class="d-flex justify-content-center  pb-5">
+      <div data-aos="flip-left"><img
+          src="https://www.apple.com/v/iphone-15-pro/c/images/overview/chip/chip__fuct924q1s66_large.jpg" alt=""></div>
+    </div>
+    <!--  -->
+    <div class="d-flex flex-column align-items-center justify-content-center ps-2  pe-2">
+      <h1 class="big_font text-white all_width">A17 Pro chips.</h1>
+      <h1 class="big_font text-white all_width">A monster win for gaming.</h1>
+      <h3 class="fonttt pt-4">It’s here. The biggest redesign in the history of Apple GPUs.</h3>
+    </div>
+    <!--  -->
+    <div class="d-flex justify-content-center">
+
+      <!-- <video src="https://www.apple.com/105/media/us/iphone-15-pro/2023/2f337511-a940-4b57-b89c-1512b7507777/anim/performance/medium_2x.mp4#t=5"><img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/chip/chip_performance_hw__6ytcie74ao22_large.png" alt=""></video> -->
+      <div class="all_width">
+        <video  class="w-100" autoplay controls
+        poster="https://www.apple.com/v/iphone-15-pro/c/images/overview/chip/chip_performance_hw__6ytcie74ao22_large.png">
+        <source
+          src="https://www.apple.com/105/media/us/iphone-15-pro/2023/2f337511-a940-4b57-b89c-1512b7507777/anim/performance/medium_2x.mp4#t=5"
+          type="video/mp4">
+      </video>
+      </div>
+    </div>
+    <!--  -->
+    <div class="d-flex justify-content-center pt-3 fonttt">
+      <h4>Honkai: Star Rail</h4>
+    </div>
+    <!--  -->
+  </section>
+
+  <!-- Section 6 (Pro Chips) End -->
+
+  <!-- Section 7 (Pro Class GPU) Start -->
+
+  <section class="container all_width ">
+    <div class="row d-flex justify-content-center fonttt pb-5">
+      <div class="col-6">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <h5>A17 Pro is an entirely new class of <br> iPhone chip that delivers our <span class="text-white">best <br> graphics performance by far.</span></h5>
+        </div>
+      </div>
+      <div class="col-6">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <h4>New</h4>
+          <h1 class="text-white">Pro-class GPU</h1>
+          <h4>with 6 cores</h4>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="d-flex justify-content-center pt-5 pb-5">
+      <button class="add_btn btn rounded-pill p-3 fs-5 text-white ">
+        GO deeper on A17 Pro <i class="text-primary bg-white rounded-pill fs-5 fa-solid fa-circle-plus"></i>
+      </button>
+    </div>
+  </section>
+  <!-- Section 7 (Pro Class GPU) End -->
+
+  <!-- Section 8 (Camera) Start -->
+  <section class="">
+    <div class="d-flex justify-content-center align-items-center pb-4 ">
+      <h1 class="big_font text-white">A camera that captures your <br> wildest imagination.</h1>
+      
+    </div>
+    <div class="d-flex justify-content-center align-items-center pb-4 ">
+      <h4 class="fonttt">From dramatic framing flexibility to next-generation portraits, see what you can do with our <br> most powerful iPhone camera system.</h4>
+    </div>
+    <div>
+      <img class="w-100" src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/camera__bo5k5tfk6cmu_large.jpg" alt="">
+    </div>
+    <div class="all_width d-flex justify-content-center align-items-center">
+      <h3 class="fonttt">A green iguana, captured by the 48MP Main camera</h3>
+    </div>
+  </section>
+  <!-- Section 8 (Camera) End -->
+
+  <!-- Section 9 (Sub_Slider) START -->
+    <section>
+      <div class="all_width d-flex flex-wrap justify-content-around sub_slider pt-5 pb-5">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <h5 class="fonttt">With iPhone 15 Pro, you have <br> multiple focal lengths to work with. <br> It’s like having <span class="text-white">seven pro lenses in <br> your pocket</span>, everywhere you go. </h5>
+        </div>
+      </div>
+      <!--  -->
+
+      <section class="d-flex justify-content-center">
+        <div id="carouselExampleCaptions" id="carouselExampleControlsTouching" class="carousel slide all_width" data-bs-touch="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens1__brxt4ho5qkeu_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">0.5x</span> Ultra Wide | Macro</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens2__e9qgfxdvjt26_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">0.5x</span> Ultra Wide | 13mm</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens3__cpk5raro1jrm_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">1x</span> Main | 24mm</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens4__fyau4puvrsyi_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">1x</span> Main | 28mm</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens5__d3r0chbwc1g2_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">1x</span> Main | 35mm</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens6__d2gegbsia7o2_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">2x</span> Telephoto | 48mm</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/pro_lens7__e9lz0003b8qe_large.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="fonttt"><span class="text-white">New 5x</span> Telephoto | 120mm</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+  <!-- Section 9 (Sub_Slider) End -->
+  <!--  -->
+  <!-- Section 10 (iPhone Example)  Start-->
+  <section class=" container all_width pt-5 pb-5 border border-end-0 border-start-0 border-top-0">
+    <div class="row example-image">
+      <div class="col-6 ">
+        <img class="w-100" src="./images/iPhone example.png" alt="">
+      </div>
+      <div class="col-6 ">
+        <div data-aos="fade-up" data-aos-duration="2000">
+          <h5 class="fonttt">The 48MP Main camera is more <br> advanced than ever, capturing <br> super‑high‑resolution photos with <br> a <span class="text-white">new level of detail and color</span>.</h5>
+        </div>
+
+        <div class="pt-4" data-aos="fade-up" data-aos-duration="3000">   
+          <h5 class="fonttt">You’ll see the improvements in <br> your portraits. And now you no <br> longer have to switch to Portrait <br> mode. If your subject is a person, <br> dog, or cat, iPhone automatically <br> captures depth information. So <br> you can choose to instantly <span class="text-white">see <br> your photo as a portrait</span>, with <br> an artful blur effect. Or later in the <br> Photos app.</h5>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+  <!-- Section 10 (iPhone Example)  End-->
+
+  <!-- Section 11 (Heading) Start -->
+  <section class="d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+    <h1 class="text-white">Shoot magical spatial videos,
+      </h1>
+      <h1 class="text-white">then relive them on Apple Vision Pro</h1>
+  </section>
+  <!-- Section 11 (Heading) End -->
+
+  <!-- Section 12 (Pro Zoom) Start -->
+    <section >
+      <div class="text-white d-flex flex-column justify-content-center align-items-center ">
+        <h1 class="big_font">120 mm of</h1>
+        <h1 class="big_font">pure Pro zoom.</h1>
+      </div>
+      <!--  -->
+      <div class="container all_width d-flex justify-content-center">
+        <img class="w-100" src="./images/pro zoom.png" alt="">
+      </div>
+      <!--  -->
+      <section class="container all_width pt-5">
+        <div class="row">
+          <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+            <div data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="fonttt">For iPhone 15 Pro Max, we <br> designed a 5x Telephoto camera <br> with <span class="text-white">the longest optical zoom of <br> any iPhone ever</span> to fit in our <br> compact Pro camera system.</h5>
+            </div>
+            <!--  -->
+            <div class="pt-4" data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="fonttt">Now you can <span class="text-white">take sharper <br> close‑ups from farther away</span> — like <br> a phenomenal photo of your friend <br> or a goal in your kid’s <br> soccer match.</h5>
+            </div>
+  
+          </div>
+          <!--  -->
+          <div class="col-6 d-flex flex-column justify-content-centera align-items-center">
+            <div data-aos="fade-up" data-aos-duration="2000">
+              <h1 class=" text-white " style="font-size: 50px;">5x optical <br> zoom <br></h1>
+              <h5 class="fonttt">
+                with the 120 mm lens
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="d-flex justify-content-center pt-5 pb-5">
+          <button class="add_btn btn rounded-pill p-3 fs-5 text-white ">
+            Nerd out on 5x Telephoto <i class="text-primary bg-white rounded-pill fs-5 fa-solid fa-circle-plus"></i>
+          </button>
+        </div>
+      </section>
+    </section>
+  <!-- Section 12 (Pro Zoom) End -->
+
+  <!-- Section (iPhone) Start -->
+    <section class=" container all_width">
+      <div>
+        <h1 class="fontt">iPhone</h1>
+      </div>
+      <!--  -->
+      <div class="pt-3 fontt all_width">
+        <div class="row">
+          <div class="col-4">
+            <h6>Explore iPhone</h6>
+            <div class="text-white pt-3">
+              <h3>Explore All iphone</h3>
+            <h3>iphone 15 Pro</h3>
+            <h3>iphone 15</h3>
+            <h3>iphone 14</h3>
+            <h3>iphone 13</h3>
+            <h3>iphone SE</h3>
+            <h6 class="pt-4">Compare iPhone</h6>
+            <h6>Switch from AAndroid</h6>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-4">
+            <h6>Shop iPhone</h6>
+            <div class="text-white pt-3">
+              <h5>Shop Iphone</h5>
+            <h5>iPhone Accessories</h5>
+            <h5>Apple Trade in</h5>
+            <h5>Carrier Deals at Apple</h5>
+            <h5>Financing</h5>
+           
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-4">
+            <h6>Go Further</h6>
+            <div class="text-white pt-3">
+              <h5>iPhone Support</h5>
+            <h5>Apple+ for iPhone</h5>
+            <h5>iOs 17</h5>
+            <h5>Apps by Apple</h5>
+            <h5>iPhone Privacy</h5>
+            <h5>iCloud+</h5>
+            <h5>Wallet, Pay, Card</h5>
+            <h5>Siri</h5>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Section (iPhone) End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Section (Footer) Start -->
+    <section class="container pt-5 all_width fonttt footer_font pb-2">
+      <footer class="border border-start-0 border-top-0 border-end-0 ">
+        <ul>
+          <li>
+            Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax maybe assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
+          </li>
+        </ul>
+        <ol class="order_list ">
+          <li class="pt-2">Available to qualified customers and requires 24‑month installment loan when you select Citizens One or Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple. You’ll need to select AT&T, T‑Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. Subject to credit approval and credit limit. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. Additional Apple Card Monthly Installments terms are in the <a href="">Apple Card Customer Agreement</a>. Additional iPhone Payments terms are <a href="">here</a>. ACMI is not available for purchases made online at special storefronts. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to, installment term lengths and eligible products. See <a href="">support.apple.com/kb/HT211204</a> for information about upcoming changes to ACMI financing.</li>
+
+          <li class="pt-2">Display size: The display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches (iPhone 15 Pro) or 6.69 inches (iPhone 15 Pro Max) diagonally. Actual viewable area is less.</li>
+          <li class="pt-2">iPhone 15 Pro and iPhone 15 Pro Max are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.</li>
+          <li class="pt-2">Stand sold separately.</li>
+          <li class="pt-2">USB 3 cable with 10Gb/s speed required.</li>
+          <li class="pt-2">Wi‑Fi 6E available in countries and regions where supported.</li>
+          <li class="pt-2">The included USB‑C Charge Cable is compatible with AirPods Pro (2nd generation) with MagSafe Charging Case (USB‑C).</li>
+          <li class="pt-2">Testing conducted by Apple in August 2023 using preproduction iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max units and software and accessory Apple USB-C Power Adapter (20W Model A2305). Fast-charge testing conducted with drained iPhone units. Charge time varies with settings and environmental factors; actual results will vary.</li>
+          <li class="pt-2">Ultra Wideband availability varies by region.</li>
+          <li class="pt-2">iPhone 15 models are activated with an eSIM and do not support a physical SIM. Use of an eSIM requires a carrier that supports eSIM and a wireless service plan (which may include restrictions on switching service providers and roaming, even after contract expiration). See your carrier for details. To learn more, visit <a href="">apple.com/esim</a>.</li>
+          <li class="pt-2">Data plan required. 5G is available in select markets and through select carriers. Speeds vary based on site conditions and carrier. For details on 5G support, contact your carrier and see <a href="">apple.com/iphone/cellular</a>.</li>
+          <li class="pt-2">All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See <a href="">apple.com/batteries</a> and <a href="">apple.com/iphone/battery.html</a> for more information.</li>
+          <li class="pt-2">Accessories sold separately.</li>
+          <li class="pt-2">Roadside Assistance and Emergency SOS via satellite are included for free for two years with the activation of any iPhone 15 model. Connection and response times vary based on location, site conditions, and other factors. See <a href="">support.apple.com/kb/HT213885</a> for more information.</li>
+          <li class="pt-2">iPhone 15 and iPhone 15 Pro can detect a severe car crash and call for help. Requires a cellular connection or Wi‑Fi calling.</li>
+          <li class="pt-2">Fees are determined by the roadside assistance provider, and can vary based on your location and the type of assistance provided. See <a href="">support.apple.com/kb/HT213885</a> for more information.</li>
+          <li class="pt-2">On a mass balance allocation.</li>
+          <li class="pt-2">Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations of plastic content and packaging weight.</li>
+          <li class="pt-2">Responsible sourcing of wood fiber is defined in Apple’s Responsible Fiber Specification. We consider wood fibers to include bamboo.</li>
+          <li class="pt-2">Door Detection and Point and Speak can read signs and labels in Cantonese (Simplified, Traditional), Chinese (Simplified, Traditional), English (U.S.), French (France), German (Germany), Italian (Italy), Japanese (Japan), Korean (Korea), Portuguese (Brazil), Russian (Russia), Spanish (Spain), and Ukrainian (Ukraine). Detection Mode should not be relied on in circumstances where you may be harmed or injured or in high-risk or emergency situations.</li>
+          <li class="pt-2">Requires an iPhone and Apple Watch with second-generation Ultra Wideband chip. Ultra Wideband availability varies by region.</li>
+          <li class="pt-2">Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible Apple products purchased at Apple Store locations,<a href="">apple.com</a> , the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See <a href="">support.apple.com/kb/HT211204</a> for more information about eligible products. APR ranges may vary based on when you accepted an Apple Card. Cardholders who accept an Apple Card on and/or after August 10, 2023: Variable APRs for Apple Card, other than ACMI, range from 19.24% to 29.49% based on creditworthiness. Rates as of August 10, 2023. Existing cardholders: See your Customer Agreement for applicable rates and fee. If you buy an ACMI eligible product by choosing to pay in full with Apple Card (instead of using ACMI), that purchase is subject to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI purchases are subject to the variable APR, not 0% APR. You’ll need to select AT&T, T‑Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to, installment term lengths and eligible products. See <a href="">support.apple.com/kb/HT211204</a> for information about upcoming changes to ACMI financing. See the <a href="">Apple Card Customer Agreement</a> for more information about ACMI financing.</li>
+          <li class="pt-2"><span class="text-white">AT&T iPhone 15 Special Deal</span>: Monthly price reflects net monthly payment, after application of AT&T trade‑in credit applied over 36 months with purchase of an iPhone 15 Pro, iPhone 15 Pro Max, iPhone 15, or iPhone 15 Plus and trade‑in of eligible smartphone. Receive credit with purchase of an iPhone 15 Pro or iPhone 15 Pro Max of either $1000, $700, or $350 (based upon the model and condition of your trade‑in smartphone). Receive credit with purchase of an iPhone 15 or iPhone 15 Plus of either $700 or $350 (based upon the model and condition of your trade‑in smartphone). Max bill credits will not exceed the cost of the device. Requires upgrade of an existing line or activation of a new line and purchase of a new iPhone 15 Pro, iPhone 15 Pro Max, iPhone 15, or iPhone 15 Plus on qualifying 36 month 0% APR installment plan, subject to carrier credit qualification. AT&T Installment Plan with Next Up is not eligible for this promotion. $0 down for well qualified customers only, or down payment may be required and depends on a variety of factors. Tax on full retail price due at sale. Requires activation on eligible unlimited plan. If you cancel eligible wireless service, credits will stop and you will owe the remaining device balance. Activation/Upgrade Fee: $35. Trade in device may not be on existing installment plan. Bill credits are applied as a monthly credit over the 36 month installment plan. Credits start within 3 bills. Will receive catchup credits once credits start. Wireless line must be on an installment agreement, active, and in good standing for 30 days to qualify. Installment agreement starts when device is shipped. To get all credits, device must remain on agreement for entire term and you must keep eligible service on device for entire installment term. Limited time offer; subject to change. Limits: one trade‑in per qualifying purchase and one credit per line. May not be combinable with other offers, discounts, or credits. Purchase, financing, other limits, and restrictions apply. Price for iPhone 15 and iPhone 15 Plus includes $30 AT&T connectivity discount. Activation required.
+          
+          <div class="pt-2">T‑Mobile iPhone 15 Special Deal: Monthly price reflects net monthly payment, after application of T‑Mobile trade‑in credit applied over 24 months with purchase of an iPhone 15 Pro, iPhone 15 Pro Max, iPhone 15, or iPhone 15 Plus and trade‑in of eligible smartphone. Receive credit with purchase of an iPhone 15, iPhone 15 Plus, iPhone 15 Pro, or iPhone 15 Pro Max of $800 or $400 for customers on a Go5G Plus plan (based upon the model and condition of your trade‑in smartphone); or $300 or $150 for customers on a Go5G, TMO ONE, TMO ONE Plus, Magenta, Magenta MAX, or Magenta Plus plan (based upon the model and condition of your trade‑in smartphone). Max bill credits will not exceed the cost of the device. Credit comprised of (i) Apple instant trade‑in credit at checkout and (ii) T‑Mobile monthly bill credits applied over 24 months. Allow 2 bill cycles from valid submission and validation of trade‑in. Tax on pre-credit price due at sale. Limited-time offer; subject to change. Qualifying credit, data plan, and trade‑in in good condition required. Max 4 promotional offers on any iPhone per account. May not be combinable with some offers or discounts. Price for iPhone 15 and iPhone 15 Plus includes $30 T‑Mobile connectivity discount. Activation required. Contact T‑Mobile before cancelling service to continue remaining bill credits on current device, or credits stop & balance on required finance agreement is due.</div>
+        
+        <div class="pt-2"><span class="text-white">Verizon iPhone 15 Special Deal</span>: Monthly price reflects net monthly payment, after application of Verizon trade‑in credit applied over 36 months with purchase of an iPhone 15 Pro, iPhone 15 Pro Max, iPhone 15, or iPhone 15 Plus. Receive credit with purchase of an iPhone 15, iPhone 15 Plus, iPhone 15 Pro, or iPhone 15 Pro Max of $830 or $415 for customers on an Unlimited Ultimate, One Unlimited, or 5G Get More plan (based upon the model and condition of your trade‑in smartphone); or $415 or $200 for customers on an Unlimited Plus, 5G Do More, or 5G Play More plan (based upon the model and condition of your trade‑in smartphone). Max bill credits will not exceed the cost of the device. Must be an existing Verizon customer. Credit comprised of (i) Apple instant trade‑in credit at checkout and (ii) Verizon monthly bill credits applied over 36 months. Customer must remain in the Verizon Device Payment Program for 36 months to receive the full benefit of the Verizon bill credits. Bill credits may take 1‑2 bill cycles to appear. If it takes two cycles for bill credits to appear, you’ll see the credit for the first cycle on your second bill in addition to that month’s credit. Requires purchase and activation of a new iPhone 15 Pro, iPhone 15 Pro Max, iPhone 15, or iPhone 15 Plus with the Verizon Device Payment Program at 0% APR for 36 months, subject to carrier credit qualification, and iPhone availability and limits. Taxes and shipping not included in monthly price. Sales tax may be assessed on full value of new iPhone. Requires eligible unlimited service plan. Requires trade‑in of eligible device in eligible condition. Must be at least 18 to trade‑in. Apple or its trade‑in partners reserve the right to refuse or limit any trade‑in transaction for any reason. In‑store trade‑in requires presentation of a valid, government‑issued photo ID (local law may require saving this information). In‑store promotion availability subject to local law; speak to a Specialist to learn more. Limited‑time offer; subject to change. Additional terms from Apple, Verizon, and Apple’s trade‑in partners may apply. Price for iPhone 15 and iPhone 15 Plus includes $30 Verizon connectivity discount. Activation required.</div></li>
+          <li class="pt-2">Battery life claim refers to larger models. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/batteries and apple.com/iphone/battery.html for more information.
+
+          </li>
+          <!-- footer_font -->
+          <div class="pt-2">Apps are available on the App Store. Title availability is subject to change.</div>
+
+          <div class="pt-2">Apple TV+ requires a subscription.</div>
+          <div class="pt-2">To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</div>
+          <div class="pt-2">If you reside in the U.S. territories, please call Goldman Sachs at 877‑255‑5923 with questions about Apple Card.</div>
+        </ol>
+      </footer>
+      <!--  -->
+      <footer class="pt-2 d-flex gap-2 ">
+        <a href=""><i class="text-white fa-brands fa-apple"></i></a>
+        <h6>></h6>
+        <a class="anime text-white" href=""><h6>iPhone</h6></a>
+        <h6>></h6>
+        <a class="anime text-white" href=""><h6>iPhone 15 Pro</h6></a>
+      </footer>
+      <!--  -->
+      <footer class="pt-3">
+        <div class="row ">
+          <!--  -->
+          <div class="col">
+            <h6 class="text-white footer_font">Shop and Learn</h6>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Store</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Mac</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">iPade</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">iPhone</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Watch</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Vision</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Airpods</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">TV & Home</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">AirTag</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Accessories</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Gift Cards</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">Apple Wallet</h6>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Wallet</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Card</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Pay</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Cash</h6></a>
+
+          </div>
+          <!--  -->
+          <div class="col">
+            <h6 class="text-white footer_font">Accounts</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Manage Your Apple ID</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Store Account</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">iCloud.com</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">Entertainment</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple One</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple TV+</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Music</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Arcade</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Fitness+</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple News+</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Podcasts</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Books</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">App Store</h6></a>
+
+
+          </div>
+          <!--  -->
+          <div class="col">
+            <h6 class="text-white footer_font">Apple Store</h6>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Find a Store</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Genius Bar</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Today at Apple</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Apple Camp</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Apple Store App</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Certified Refurbished</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Apple Trade In</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Financing</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Carrier Deals at Apple</h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Order Status
+          </h6></a>
+           <a class="anime" href=""><h6 class="fonttt footer_font">Shopping Help</h6></a>
+
+
+
+          </div>
+          <!--  -->
+          <div class="col">
+            <h6 class="text-white footer_font">For Business</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple and Business</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Sho for Business</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">For Education</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple and Education</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Shop for K-12</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Shop for College</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">For Healthcare</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple in Healthcare</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Health on Apple Watch</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Health Records on iPhone</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">For Government</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Shop for Government</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Shop for Veterans and Military
+            </h6></a>
+          </div>
+          <!--  -->
+          <div class="col">
+            <h6 class="text-white footer_font">Apple Values</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Accessibility</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Education</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Environment</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Inclusion and Diversity</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Privacy
+            </h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Racial Equity and Justice
+            </h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Supplier Responsibility</h6></a>
+
+            <h6 class="text-white pt-2 footer_font">About Apple</h6>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Newsromm</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Apple Leadership</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Career Opportunities</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Investors</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Ethics & Compliance</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Events</h6></a>
+            <a class="anime" href=""><h6 class="fonttt footer_font">Contact Apple</h6></a>
+          </div>
+
+
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="pt-5 pb-3 border border-start-0 border-top-0 border-end-0">
+          <h6 class="footer_font">More ways to shop: <a href="">Find an Apple Store</a> or other <a href="">retailer</a> near you. Or call 1-800-MY-APPLE.</h6>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="row pt-3">
+          <!--  -->
+          <div class="col-4">
+            <h6 class="footer_font">Copyright © 2024 Apple Inc. All rights reserved.</h6>
+          </div>
+          <!--  -->
+          <div class="col-6 d-flex gap-2 ">
+            <a class="anime text-white" href="">Privacy Policy</a>
+            <h6>|</h6>
+            <a class="anime text-white" href="">Terms of Use</a>
+            <h6>|</h6>
+            <a class="anime text-white" href="">Sales and Refunds</a>
+            <h6>|</h6>
+            <a class="anime text-white" href="">Legal</a>
+            <h6>|</h6>
+            <a class="anime text-white" href="">Site Map</a>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="col-2 d-flex justify-content-end">
+            <a class="anime text-white" href="">United States</a>
+          </div>
+          <!--  -->
+          <!--  -->
+        </div>
+      </footer>
+    </section>
+
+
+  <!-- Section (Footer) End -->
+
+
+  <!-- Script Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

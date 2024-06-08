@@ -1,0 +1,1 @@
+alert("This is chapter 1 par 3");
