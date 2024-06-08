@@ -1,3 +1,58 @@
+// Q1: Solve the below code of expressions using short circuit
+
+// I. let exp = "faraz" || (true + false) + 5 && " " || "true";
+let exp = "faraz" || (true + false + 5 && " ") || "true";
+console.log("Expression I:", exp); // Output: "faraz"
+
+// II. let exp1 = (1 + 2) + ++b || 5 && 0 ; for b = 3;
+let b = 3;
+let exp1 = 1 + 2 + ++b || (5 && 0);
+console.log("Expression II:", exp1); // Output: 7
+
+// III. let exp2 = 32 && true - ++a && " " || "true"; for a = 5;
+let a = 5;
+let exp2 = (32 && true - ++a && " ") || "true";
+console.log("Expression III:", exp2); // Output: " "
+
+// IV. let exp3 = (true + 3) * 5 && undefined || "faraz" + 5;
+let exp3 = ((true + 3) * 5 && undefined) || "faraz" + 5;
+console.log("Expression IV:", exp3); // Output: "faraz5"
+
+// V. let exp4 = 32 + "abc" || (true + false) + false || + 5 || "true";
+let exp4 = 32 + "abc" || true + false + false || +5 || "true";
+console.log("Expression V:", exp4); // Output: "32abc"
+
+// VI. let exp5 = false || (true + true) + 15 && "" || 50;
+let exp5 = false || (true + true + 15 && "") || 50;
+console.log("Expression VI:", exp5); // Output: 50
+
+// VII. let exp6 = (true + false) + 5 || false + 8 + "abc" || "true";
+let exp6 = true + false + 5 || false + 8 + "abc" || "true";
+console.log("Expression VII:", exp6); // Output: 6
+
+// VIII. let exp7 = "faraz" || false + 10 || "true";
+let exp7 = "faraz" || false + 10 || "true";
+console.log("Expression VIII:", exp7); // Output: "faraz"
+
+// IX. let exp8 = 12 + (false + false) + true && null || "faraz";
+let exp8 = (12 + (false + false) + true && null) || "faraz";
+console.log("Expression IX:", exp8); // Output: "faraz"
+
+// X. let exp9 = (false + true + false + 2) || "faraz" && false || 1 + 10;
+let exp9 = false + true + false + 2 || ("faraz" && false) || 1 + 10;
+console.log("Expression X:", exp9); // Output: 3
+
+// XI. let exp10 = (true + false) + 5 || false + 8 + "abc" || "true";
+let exp10 = true + false + 5 || false + 8 + "abc" || "true";
+console.log("Expression XI:", exp10); // Output: 6
+
+// XII. let exp11 = (true + false) * 3 && "" || false + true - (12 + true + true + false);
+let exp11 =
+  ((true + false) * 3 && "") || false + true - (12 + true + true + false);
+console.log("Expression XII:", exp11); // Output: -13
+
+
+// Q2
 var mobiles = {
     iphone: {
       iphone7: {
