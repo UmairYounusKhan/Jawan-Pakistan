@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment 22 (Calculator)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main" calculator()>
+        <div class="all_btn">
+        <input type="text" name="" id="display">
+        </div>
+
+        <div class="all_btn">
+            <button class="btn_ce" onclick="oppenedToDisplay('%')">%</button>
+            <button class="btn_ce" onclick="clearedEntry()">CE</button>
+            <button class="btn-c" onclick="clearDisplay()">C</button>
+        </div>
+
+        <div class="all_btn">
+            <button class="btn_num" onclick="oppenedToDisplay(7)">7</button>
+            <button class="btn_num" onclick="oppenedToDisplay(8)">8</button>
+            <button class="btn_num" onclick="oppenedToDisplay(9)">9</button>
+            <button class="minus" onclick="oppenedToDisplay('-')">-</button>
+        </div>
+
+        <div class="all_btn">
+            <button class="btn_num" onclick="oppenedToDisplay(4)">4</button>
+            <button class="btn_num" onclick="oppenedToDisplay(5)">5</button>
+            <button class="btn_num" onclick="oppenedToDisplay(6)">6</button>
+            <button class="divide" onclick="oppenedToDisplay('/')">/</button>
+        </div>
+
+        <div class="all_btn">
+            <button class="btn_num" onclick="oppenedToDisplay(1)">1</button>
+            <button class="btn_num" onclick="oppenedToDisplay(2)">2</button>
+            <button class="btn_num" onclick="oppenedToDisplay(3)">3</button>
+            <button class="multi" onclick="oppenedToDisplay('*')">x</button>
+        </div>
+
+        <div class="all_btn">
+            <button class="btn_num" onclick="oppenedToDisplay('.')">.</button>
+            <button class="btn_num" onclick="oppenedToDisplay(0)">0</button>
+            <button class="btn_ce" onclick="calculate()">=</button>
+            <button class="plus" onclick="oppenedToDisplay('+')">+</button>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
