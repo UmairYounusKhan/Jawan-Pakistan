@@ -1,0 +1,94 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*ucL7YQ2v8aaOy426soLPZA.png);
+}
+
+header {
+  background-color: #8930d78a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  background-color: rgba(62, 171, 202, 0.719);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 1rem;
+  padding: 1.5rem;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.card:hover{
+  scale: 1.1;
+  transition: .5s;
+  background-color: rgba(62, 172, 202, 0.925);
+}
+
+footer {
+  background-color: #8930d78a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
