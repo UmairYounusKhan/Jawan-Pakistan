@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/12/3a/02/123a02a218680527b54eeac0fe448699.jpg");
+   background-size:cover;
+ /* color: rgb(137, 137, 137); */
+background-repeat: no-repeat;
+color: white;
+
+
+}
+
+.boss{
+    width: 500px;
+    background: linear-gradient(1 35deg,rgba(255, 255, 255, 0)) ;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter:blur(10px) ;
+border-radius: 20px;
+border: 1px solid rgba(255, 255, 255, 0.18) ;
+box-shadow: 0 8 32px 0 rgba(255, 255, 255, 0);
+padding: 10px;
+text-align: center;
+font-style: italic;
+}
+
+.anchor {
+    text-decoration: none;
+    color: rgb(224, 211, 211);
+}
+.anchor:hover{
+    color: rgb(255, 255, 255);
+}
+
+input {
+    text-align: center;
+}
+input:focus {
+    outline: none;
+  }
+
+  
